@@ -1,3 +1,5 @@
-set foreign_key_checks = 0;
+-- Delete all data from the tables
+delete from users;
 
-delete from user;
+insert into users (name, username, email, password, is_active) values
+('John Doe', 'johndoe', 'johndoe@acme.com', '123', 'true');
