@@ -61,10 +61,10 @@ hs_err_pid*.log
 
 # VS Code
 .vscode/
-!.vscode/settings.json # Keep settings.json if you want to share common settings
-!.vscode/tasks.json    # Keep tasks.json if you have shared build tasks
-!.vscode/launch.json   # Keep launch.json if you have shared debug configurations
-!.vscode/extensions.json # Recommended extensions for the project
+#!.vscode/settings.json # Keep settings.json if you want to share common settings
+#!.vscode/tasks.json    # Keep tasks.json if you have shared build tasks
+#!.vscode/launch.json   # Keep launch.json if you have shared debug configurations
+#!.vscode/extensions.json # Recommended extensions for the project
 
 # IntelliJ IDEA
 .idea/
