@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:17
+    container_name: finariodb
+    environment: 
+      POSTGRES_DB: finariodb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: P@ssw0rd
+    ports:
+      - "5432:5432"
+    volumes:
+      - finario-data:/var/lib/postgresql/data
+
+volumes:
+  finario-data:
